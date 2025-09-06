@@ -10,6 +10,26 @@ To run this application, you must have the following software installed on your 
 
 - **Node.js**: `v20.19.0` or higher (includes `npm`)
 
+---
+### Dependencies
+This project uses the following key dependencies to function. All of them will be automatically installed by following the installation steps below.
+
+### Backend
+**Express.js**: A web framework for Node.js used to build the RESTful API.
+
+**CSV Parser**: A library used to read and parse data from the transactions.csv file.
+
+**CSV Stringifier**: A library used to convert data back into CSV format for writing to the file.
+
+**cors**: A Node.js middleware for handling Cross-Origin Resource Sharing.
+
+### Frontend
+**Quasar Framework**: A Vue.js-based framework for building responsive web applications.
+
+**Pinia**: A state management library for Vue.js used to manage the application's data flow.
+
+---
+
 ### Installation
 
 Follow these steps to set up both the backend and frontend components of the application.
@@ -28,6 +48,7 @@ Follow these steps to set up both the backend and frontend components of the app
     `npm install -g @quasar/cli`
 3.  Install the project-specific dependencies:
     `npm install`
+
 
 ---
 
