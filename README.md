@@ -11,10 +11,13 @@ To run this application, you must have the following software installed on your 
 - **Node.js**: `v20.19.0` or higher (includes `npm`)
 
 ---
+
 ### Dependencies
+
 This project uses the following key dependencies to function. All of them will be automatically installed by following the installation steps below.
 
 ### Backend
+
 **Express.js**: A web framework for Node.js used to build the RESTful API.
 
 **CSV Parser**: A library used to read and parse data from the transactions.csv file.
@@ -24,6 +27,7 @@ This project uses the following key dependencies to function. All of them will b
 **cors**: A Node.js middleware for handling Cross-Origin Resource Sharing.
 
 ### Frontend
+
 **Quasar Framework**: A Vue.js-based framework for building responsive web applications.
 
 **Pinia**: A state management library for Vue.js used to manage the application's data flow.
@@ -38,7 +42,7 @@ Follow these steps to set up both the backend and frontend components of the app
 
 1.  Navigate to the `backend` directory in your terminal or command prompt.
 2.  Install the required Node.js packages by running the following command:
-    `npm install`
+    `npm install express cors csv-parser csv-stringify`
 3.  Set up the environment variables. Inside your Server folder, create another folder and name it `Data` then save the `transactions.csv` file inside. For the localhost, you can just run it when it is ready or set a specified port number in the index.js.
 
 #### **Frontend Setup**
@@ -48,7 +52,6 @@ Follow these steps to set up both the backend and frontend components of the app
     `npm install -g @quasar/cli`
 3.  Install the project-specific dependencies:
     `npm install`
-
 
 ---
 
@@ -98,4 +101,5 @@ The backend API is designed to manage transactions and is a RESTful service. All
 The application's functionality can be tested through the user interface after running both the backend and frontend. You can perform actions like adding transactions even filters and mobile responsiveness to ensure the API and UI are working together correctly. You can also use a tool like Postman to test the backend API endpoints directly.
 
 ---
+
 <img width="1779" height="864" alt="image" src="https://github.com/user-attachments/assets/abb317ba-77eb-41d3-847b-7058b51df15e" />
