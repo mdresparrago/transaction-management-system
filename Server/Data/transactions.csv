@@ -11,3 +11,9 @@ Transaction Date,Account Number,Account Holder Name,Amount,Status
 08/03/2025,1212-3434-5656,Jessica Martin,830,Settled
 09/03/2025,9876-5432-1011,Christopher Davis,124.75,Pending
 10/03/2025,4646-8282-1919,Amanda Robinson,300.5,Settled
+07/09/2025,9876-5432-1000,John Smith,150.5,Failed
+07/09/2025,9876-5432-1000,John Dave,150.5,Pending
+07/09/2025,9876-5432-1000,John Dave,150.5,Settled
+2222-22-22,2222-2222-2222,222222222222,222.00,Failed
+2020-12-13,1222-2222-2222,211111111,222.00,Settled
+2025-09-07,9876-5432-1000,John Dave,150.50,Pending

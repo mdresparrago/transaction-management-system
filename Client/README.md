@@ -36,7 +36,6 @@ Follow these steps to set up both the backend and frontend components of the app
 To run the full-stack application, you need to start both the backend API and the frontend development server.
 
 1.  **Start the Backend API**:
-
     - Open a new terminal or command prompt window.
     - Navigate to the `backend` directory.
     - Run the start command:
@@ -44,7 +43,6 @@ To run the full-stack application, you need to start both the backend API and th
     - You should see a message in the console indicating that the server is running, usually on `http://localhost:3000`. This backend will now read from and write to the `transactions.csv` file to handle all data operations.
 
 2.  **Start the Frontend Application**:
-
     - Open another new terminal or command prompt window.
     - Navigate to the `frontend` directory.
     - Start the Quasar development server:
@@ -60,13 +58,11 @@ The backend API is designed to manage transactions and is a RESTful service. All
 #### **Endpoints**
 
 - **GET `/api/transactions`**
-
   - **Description**: Retrieves a list of all transactions from the CSV file.
   - **Response**: `200 OK`
   - **Example**: `[{"Transaction Date": "08/23/2025", "Account Number" : "1213-1213-1213"}, ...]`
 
 - **POST `/api/transactions`**
-
   - **Description**: Creates a new transaction and appends it to the CSV file.
   - **Request Body**: `{"amount": 100,}`
   - **Response**: `201 Created`
