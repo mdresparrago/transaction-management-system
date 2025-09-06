@@ -96,3 +96,6 @@ The backend API is designed to manage transactions and is a RESTful service. All
 ### Testing
 
 The application's functionality can be tested through the user interface after running both the backend and frontend. You can perform actions like adding transactions even filters and mobile responsiveness to ensure the API and UI are working together correctly. You can also use a tool like Postman to test the backend API endpoints directly.
+
+---
+<img width="1779" height="864" alt="image" src="https://github.com/user-attachments/assets/abb317ba-77eb-41d3-847b-7058b51df15e" />
